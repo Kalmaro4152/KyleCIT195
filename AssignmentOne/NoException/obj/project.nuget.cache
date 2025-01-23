@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "0aFKkympSjY=",
+  "dgSpecHash": "3l+ocT7pRis=",
   "success": true,
-  "projectFilePath": "/home/kyle/Documents/School Work/CSharp CIT 195/NoException/NoException.csproj",
+  "projectFilePath": "/home/kyle/Documents/NMC Work/CSharp CIT 195/AssignmentOne/NoException/NoException.csproj",
   "expectedPackageFiles": [
-    "/home/kyle/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.10/microsoft.netcore.app.host.linux-x64.8.0.10.nupkg.sha512"
+    "/home/kyle/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.11/microsoft.netcore.app.host.linux-x64.8.0.11.nupkg.sha512"
   ],
   "logs": []
 }

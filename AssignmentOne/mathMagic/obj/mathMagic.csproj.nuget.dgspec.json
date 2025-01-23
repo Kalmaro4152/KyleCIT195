@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/kyle/Documents/School Work/CSharp CIT 195/mathMagic/mathMagic.csproj": {}
+    "/home/kyle/Documents/NMC Work/CSharp CIT 195/AssignmentOne/mathMagic/mathMagic.csproj": {}
   },
   "projects": {
-    "/home/kyle/Documents/School Work/CSharp CIT 195/mathMagic/mathMagic.csproj": {
+    "/home/kyle/Documents/NMC Work/CSharp CIT 195/AssignmentOne/mathMagic/mathMagic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kyle/Documents/School Work/CSharp CIT 195/mathMagic/mathMagic.csproj",
+        "projectUniqueName": "/home/kyle/Documents/NMC Work/CSharp CIT 195/AssignmentOne/mathMagic/mathMagic.csproj",
         "projectName": "mathMagic",
-        "projectPath": "/home/kyle/Documents/School Work/CSharp CIT 195/mathMagic/mathMagic.csproj",
+        "projectPath": "/home/kyle/Documents/NMC Work/CSharp CIT 195/AssignmentOne/mathMagic/mathMagic.csproj",
         "packagesPath": "/home/kyle/.nuget/packages/",
-        "outputPath": "/home/kyle/Documents/School Work/CSharp CIT 195/mathMagic/obj/",
+        "outputPath": "/home/kyle/Documents/NMC Work/CSharp CIT 195/AssignmentOne/mathMagic/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kyle/.nuget/NuGet/NuGet.Config"
@@ -37,7 +37,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.100-rc.2.24474.1/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
