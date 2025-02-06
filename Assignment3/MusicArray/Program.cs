@@ -5,7 +5,7 @@ namespace FunWithMusic
     {
         enum Genre
         {
-            Rock, EDM, Pop, Classical, Jazz
+            Rock = 1, EDM, Pop, Classical, Jazz
         }
         struct Music
         {
@@ -59,31 +59,25 @@ namespace FunWithMusic
             Music[] collection = new Music[size];
             try
             {
-
+                var values = Enum.GetValues(typeof(Genre));
             
                 for (int i=0; i<size; i++)
                 {
-                Console.WriteLine($"What is the Genre of song number {i+1}?\nR = Rock, E = EDM, P = Pop, C = Classical, J = Jazz");
-                char g = char.Parse(Console.ReadLine());
-                switch(g)
-                {
-                    case 'R' or 'r':
-                        genre = Genre.Rock;
-                        break;
-                    case 'E' or 'e':
-                        genre = Genre.EDM;
-                        break;
-                    case 'P' or 'p':
-                        genre = Genre.Pop;
-                        break;
-                    case 'C' or 'c':
-                        genre = Genre.Classical;
-                        break;
-                    case 'J' or 'j':
-                        genre = Genre.Jazz;
-                        break;
-                }
-                collection[i].SetGenre(genre);
+                    for(int j = 0; j < values.Length; j++)
+                    {
+                        Console.WriteLine((j+1)+": "+(Genre) (j+1));
+                    }
+                    int g = 0;
+                    while (true)
+                    {
+                        g = int.Parse(Console.ReadLine());
+                        var result = (Genre) g;
+
+                        if (Array.IndexOf(values, result) > -1) {Console.WriteLine("yay"); break;}
+                        else {Console.WriteLine("Nay");}
+                    }
+                    Console.WriteLine((Genre) g);
+                    collection[i].SetGenre((Genre) g);
                 }
             }
             catch(ArgumentException e)
