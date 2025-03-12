@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MulticastDelagates")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67f6a2520e56d45228b34d92a1f098c34117be4c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33ddae43065e282dca840de69cce7d8333313172")]
 [assembly: System.Reflection.AssemblyProductAttribute("MulticastDelagates")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MulticastDelagates")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
