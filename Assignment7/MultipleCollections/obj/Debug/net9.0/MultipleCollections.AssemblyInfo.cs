@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultipleCollections")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f70751268d410060eca425b713e5eca6ae927b0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91a601a1a0fa1a62400aac0b30abae29732c0176")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultipleCollections")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultipleCollections")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
