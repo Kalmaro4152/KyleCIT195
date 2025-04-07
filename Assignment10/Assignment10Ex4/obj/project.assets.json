@@ -1,0 +1,72 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net9.0": []
+  },
+  "packageFolders": {
+    "/home/kyle/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/Assignment10/Assignment10Ex4/Assignment10Ex4.csproj",
+      "projectName": "Assignment10Ex4",
+      "projectPath": "/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/Assignment10/Assignment10Ex4/Assignment10Ex4.csproj",
+      "packagesPath": "/home/kyle/.nuget/packages/",
+      "outputPath": "/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/Assignment10/Assignment10Ex4/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/kyle/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.200/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
