@@ -19,6 +19,10 @@ namespace Assignment10Ex4
             try
             {
                 Stopwatch sw = Stopwatch.StartNew();
+
+                Drive drive =  await DriveToWorkAsync(10);
+                Console.WriteLine("Walking into work.");
+
                 TurnOffAlarm();
                 Console.WriteLine("Out of bed and ready to go");
 
@@ -30,9 +34,6 @@ namespace Assignment10Ex4
 
                 GetDressed();
                 Console.WriteLine("Dressed and ready to go");
-
-                Drive drive =  await DriveToWorkAsync(10);
-                Console.WriteLine("Walking into work.");
 
                 Console.WriteLine("Ready to begin");
                 sw.Stop();
@@ -76,7 +77,7 @@ namespace Assignment10Ex4
             Random rand = new Random();
             Console.WriteLine("Starting the car...");
             int randomInt = rand.Next(4, 12);
-            if (randomInt == 4)
+            if (randomInt == 12)
             {
                 Console.WriteLine("Car didn't start, you didn't go to work today.");
                 throw new Exception("Car Failed to Start");
