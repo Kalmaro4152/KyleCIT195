@@ -1,0 +1,117 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RazorPagesWorkout
+build_property.RootNamespace = RazorPagesWorkout
+build_property.ProjectDir = /home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/Exercises/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhlcmNpc2VzL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/Exercises/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhlcmNpc2VzL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/Exercises/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhlcmNpc2VzL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/Exercises/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhlcmNpc2VzL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/Exercises/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXhlcmNpc2VzL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXNlcnMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/WorkoutLogs/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV29ya291dExvZ3MvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/WorkoutLogs/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV29ya291dExvZ3MvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/WorkoutLogs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV29ya291dExvZ3MvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/WorkoutLogs/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV29ya291dExvZ3MvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/WorkoutLogs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvV29ya291dExvZ3MvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesWorkout/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-42rnpfm06h

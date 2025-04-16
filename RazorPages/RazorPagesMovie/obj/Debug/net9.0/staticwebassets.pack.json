@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesMovie/wwwroot/images/Movietime.jpg",
+      "PackagePath": "staticwebassets/images/Movietime.jpg"
+    },
+    {
       "Id": "/home/kyle/Documents/School Work/CSharp CIT 195/KyleCIT195/RazorPages/RazorPagesMovie/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
