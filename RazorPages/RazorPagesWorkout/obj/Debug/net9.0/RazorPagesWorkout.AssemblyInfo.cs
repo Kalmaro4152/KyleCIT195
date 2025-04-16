@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RazorPagesWorkout")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+edde71505d028e3e32a9874d4e3de62ee50c960c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e7cf00919534fa9d42fb34860bca8580f55f435")]
 [assembly: System.Reflection.AssemblyProductAttribute("RazorPagesWorkout")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RazorPagesWorkout")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
