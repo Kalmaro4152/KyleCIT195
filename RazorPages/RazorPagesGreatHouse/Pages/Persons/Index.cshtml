@@ -1,0 +1,60 @@
+@page
+@model RazorPagesGreatHouse.Pages.Persons.IndexModel
+
+@{
+    ViewData["Title"] = "People";
+}
+
+<h1>People</h1>
+
+<p>
+    <a asp-page="Create" style="font-size:1.3em;">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Person[0].Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Person[0].Race)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Person[0].Level)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Person[0].Health)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Person[0].House)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Person) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Race)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Level)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Health)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.House.Clan)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

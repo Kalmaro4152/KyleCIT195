@@ -1,0 +1,54 @@
+@page
+@model RazorPagesGreatHouse.Pages.Houses.IndexModel
+
+@{
+    ViewData["Title"] = "Great Houses";
+}
+
+<h1>Great Houses</h1>
+
+<p>
+    <a asp-page="Create" style="font-size:1.3em;">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.House[0].Clan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.House[0].Slaver)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.House[0].Strength)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.House[0].Characteristic)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.House) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Clan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Slaver)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Strength)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Characteristic)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

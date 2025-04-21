@@ -1,0 +1,68 @@
+@page
+@model RazorPagesGreatHouse.Pages.Persons.CreateModel
+
+        @{
+        ViewData["Title"] = "Add Person";
+        }
+        <div class="bg-opacity-50 bg-light p-3">
+        <h1>Add Person</h1>
+        
+    <h4>Person</h4>
+    <hr />
+    <div class="row">
+    <div class="col-md-4">
+    <form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <span class="text-danger">*</span>
+                <label asp-for="Person.Name" class="control-label"></label>
+                <input asp-for="Person.Name" class="form-control" />
+                <span asp-validation-for="Person.Name" class="text-danger"></span>
+            </div>
+            <!--<div class="form-group">
+                <span class="text-danger">*</span>
+                <label asp-for="Person.Race" class="control-label"></label>
+                <input asp-for="Person.Race" class="form-control" />
+                <span asp-validation-for="Person.Race" class="text-danger"></span>
+            </div>-->
+            <div class="form-group">
+                <label for="race">Race</label>
+                <select class="form-control" asp-for="Person.Race">
+                    <option value="">Select Race</option>
+                    @foreach (var race in Model.RaceList)
+                    {
+                        <option value="@race">@race</option>
+                    }
+                </select>
+                <span asp-validation-for="Person.Race" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <span class="text-danger">*</span>
+                <label asp-for="Person.Level" class="control-label"></label>
+                <input asp-for="Person.Level" class="form-control" />
+                <span asp-validation-for="Person.Level" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <span class="text-danger">*</span>
+                <label asp-for="Person.Health" class="control-label"></label>
+                <input asp-for="Person.Health" class="form-control" />
+                <span asp-validation-for="Person.Health" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Person.HouseId" class="control-label"></label>
+                <select asp-for="Person.HouseId" class ="form-control" asp-items="ViewBag.HouseId"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
